@@ -1,0 +1,1033 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x3feb0386414917C2dDe9a7c2Ee2Af22EB810f5Cc",
+    "txHash": "0xae07b0952abc7c1cd6c0ea5eb42f3ad82831a6c188386312289aa69d45f71985",
+    "deployTransaction": {
+      "hash": "0xae07b0952abc7c1cd6c0ea5eb42f3ad82831a6c188386312289aa69d45f71985",
+      "type": 0,
+      "accessList": null,
+      "blockHash": null,
+      "blockNumber": null,
+      "transactionIndex": null,
+      "confirmations": 0,
+      "from": "0x91361aBf5225c549b84aB2428B2bAdb5Dbc3F896",
+      "gasPrice": {
+        "type": "BigNumber",
+        "hex": "0x02540be401"
+      },
+      "gasLimit": {
+        "type": "BigNumber",
+        "hex": "0x075da0"
+      },
+      "to": null,
+      "value": {
+        "type": "BigNumber",
+        "hex": "0x00"
+      },
+      "nonce": 1,
+      "data": "0x608060405234801561001057600080fd5b50600080546001600160a01b031916339081178255604051909182917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908290a350610759806100616000396000f3fe60806040526004361061007b5760003560e01c80639623609d1161004e5780639623609d1461011157806399a88ec414610124578063f2fde38b14610144578063f3b7dead146101645761007b565b8063204e1c7a14610080578063715018a6146100bc5780637eff275e146100d35780638da5cb5b146100f3575b600080fd5b34801561008c57600080fd5b506100a061009b366004610515565b610184565b6040516001600160a01b03909116815260200160405180910390f35b3480156100c857600080fd5b506100d1610215565b005b3480156100df57600080fd5b506100d16100ee366004610554565b610292565b3480156100ff57600080fd5b506000546001600160a01b03166100a0565b6100d161011f36600461058c565b61031c565b34801561013057600080fd5b506100d161013f366004610554565b6103ad565b34801561015057600080fd5b506100d161015f366004610515565b610405565b34801561017057600080fd5b506100a061017f366004610515565b6104ef565b6000806000836001600160a01b03166040516101aa90635c60da1b60e01b815260040190565b600060405180830381855afa9150503d80600081146101e5576040519150601f19603f3d011682016040523d82523d6000602084013e6101ea565b606091505b5091509150816101f957600080fd5b8080602001905181019061020d9190610538565b949350505050565b6000546001600160a01b031633146102485760405162461bcd60e51b815260040161023f906106c0565b60405180910390fd5b600080546040516001600160a01b03909116907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908390a3600080546001600160a01b0319169055565b6000546001600160a01b031633146102bc5760405162461bcd60e51b815260040161023f906106c0565b6040516308f2839760e41b81526001600160a01b038281166004830152831690638f283970906024015b600060405180830381600087803b15801561030057600080fd5b505af1158015610314573d6000803e3d6000fd5b505050505050565b6000546001600160a01b031633146103465760405162461bcd60e51b815260040161023f906106c0565b60405163278f794360e11b81526001600160a01b03841690634f1ef286903490610376908690869060040161065d565b6000604051808303818588803b15801561038f57600080fd5b505af11580156103a3573d6000803e3d6000fd5b5050505050505050565b6000546001600160a01b031633146103d75760405162461bcd60e51b815260040161023f906106c0565b604051631b2ce7f360e11b81526001600160a01b038281166004830152831690633659cfe6906024016102e6565b6000546001600160a01b0316331461042f5760405162461bcd60e51b815260040161023f906106c0565b6001600160a01b0381166104945760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b606482015260840161023f565b600080546040516001600160a01b03808516939216917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600080546001600160a01b0319166001600160a01b0392909216919091179055565b6000806000836001600160a01b03166040516101aa906303e1469160e61b815260040190565b600060208284031215610526578081fd5b81356105318161070b565b9392505050565b600060208284031215610549578081fd5b81516105318161070b565b60008060408385031215610566578081fd5b82356105718161070b565b915060208301356105818161070b565b809150509250929050565b6000806000606084860312156105a0578081fd5b83356105ab8161070b565b925060208401356105bb8161070b565b9150604084013567ffffffffffffffff808211156105d7578283fd5b818601915086601f8301126105ea578283fd5b8135818111156105fc576105fc6106f5565b604051601f8201601f19908116603f01168101908382118183101715610624576106246106f5565b8160405282815289602084870101111561063c578586fd5b82602086016020830137856020848301015280955050505050509250925092565b600060018060a01b038416825260206040818401528351806040850152825b818110156106985785810183015185820160600152820161067c565b818111156106a95783606083870101525b50601f01601f191692909201606001949350505050565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604082015260600190565b634e487b7160e01b600052604160045260246000fd5b6001600160a01b038116811461072057600080fd5b5056fea2646970667358221220d849f96f3086b9f82cdcf665adb8c697ace05638da1c7c16ab2d26293717af6764736f6c63430008020033",
+      "r": "0xf0c84c50ecd3408442e27ddeefb6d4add64d5347e826fe69d5e1157c39f66f59",
+      "s": "0x510073fa484aebc01c5a06384019059a3ac30cb8e16096bb2b34b09c89b039d2",
+      "v": 230,
+      "creates": "0x3feb0386414917C2dDe9a7c2Ee2Af22EB810f5Cc",
+      "chainId": 97
+    }
+  },
+  "proxies": [
+    {
+      "address": "0x6616DefEAB1Cd456b61D915745280F78BB9d8DB4",
+      "txHash": "0x77e76a1ad52a01d42a29dcc27994338c6a6751c5be7ce08c2c110400ada3769d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x22a09c5a11B7b433361D1BE562a636F626c4b321",
+      "txHash": "0x91745db77e4030a9794a82993caa3528c4c635d7639d4ea5851af45e22b9c0b4",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x38104bEddCAc3Fc8F6A4D68C37317ffD89a838B5",
+      "txHash": "0x1a295e79b884feff0fa4a198d681498d6980b52cf7913240ba118504dc5f706c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE83fd80B16D6baCB3E1AacDE7E591174ff148047",
+      "txHash": "0xee72ae68c60a407b85752f182d1c9809aefea0b555391286a28b460ae9ea24c9",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2A0142d1080A972038ca4118863f1Fb67a18b365",
+      "txHash": "0xf3d5289cb3819d0172b9669f3ecdbdfd1fc5381967b9c06d31d5f27b3eaba683",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "2ca2119dcba65f524df959c0769439bcb74af8bb63661e0ee46e566ae007a890": {
+      "address": "0x15C0ed1f00A69A232154A4Cb6c8247f67E969D99",
+      "txHash": "0x373010b5ef0327da184f0b548bc5480643bd07f0154b3125fdd87fbbae7a0e64",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts\\Open-Zeppelin.sol:11"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts\\Open-Zeppelin.sol:16"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "contracts\\Open-Zeppelin.sol:57"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\XDAO01Up.sol:26"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts\\XDAO01Up.sol:28"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:30"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "contracts\\XDAO01Up.sol:32"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "contracts\\XDAO01Up.sol:33"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "initialLowerFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:469"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "lowerFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:470"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "initialHigherFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:471"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "higherFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:472"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "beneficiaries",
+            "type": "t_struct(Beneficiaries)5255_storage",
+            "src": "contracts\\XDAO01Up.sol:474"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "maxTransferAmount",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:476"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "liquidityQuantum",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:477"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "minHoldTimeSec",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:478"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "pancakeRouter",
+            "type": "t_contract(IPancakeRouter02)1479",
+            "src": "contracts\\XDAO01Up.sol:480"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "pancakePair",
+            "type": "t_address",
+            "src": "contracts\\XDAO01Up.sol:481"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "generalCharityAddress",
+            "type": "t_address",
+            "src": "contracts\\XDAO01Up.sol:483"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "isCharityAddress",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\XDAO01Up.sol:484"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "preferredCharityAddress",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "contracts\\XDAO01Up.sol:485"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "isFeeFree",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\XDAO01Up.sol:487"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "lastTransferTime",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\XDAO01Up.sol:488"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "autoliquify",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:490"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "beneficiariesSet",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:491"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "liquifying",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:566"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "__gap",
+            "type": "t_array(t_uint256)10_storage",
+            "src": "contracts\\XDAO01Up.sol:955"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_struct(Fees)5237_storage": {
+            "label": "struct XDAO01Up.Fees",
+            "members": [
+              {
+                "label": "marketing",
+                "type": "t_uint256"
+              },
+              {
+                "label": "charity",
+                "type": "t_uint256"
+              },
+              {
+                "label": "liquidity",
+                "type": "t_uint256"
+              },
+              {
+                "label": "lottery",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_struct(Beneficiaries)5255_storage": {
+            "label": "struct XDAO01Up.Beneficiaries",
+            "members": [
+              {
+                "label": "marketing",
+                "type": "t_address"
+              },
+              {
+                "label": "charity",
+                "type": "t_address"
+              },
+              {
+                "label": "liquidity",
+                "type": "t_address"
+              },
+              {
+                "label": "lottery",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_contract(IPancakeRouter02)1479": {
+            "label": "contract IPancakeRouter02"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_array(t_uint256)10_storage": {
+            "label": "uint256[10]"
+          }
+        }
+      }
+    },
+    "1c8812b5eafa1e3a28d4ffb8f98882e5e6a7d40ce849e12bb529451382534e8f": {
+      "address": "0x0E518e697507998d314c39817B188D0E13510c8F",
+      "txHash": "0x1d858cdd63d3019e20c8790dbb0fc3d7ec2e7f2b81a129a96c102741c7d89668",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts\\Open-Zeppelin.sol:11"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts\\Open-Zeppelin.sol:16"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "contracts\\Open-Zeppelin.sol:57"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\XDAO01Up.sol:26"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts\\XDAO01Up.sol:28"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:30"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "contracts\\XDAO01Up.sol:32"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "contracts\\XDAO01Up.sol:33"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "initialLowerFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:469"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "lowerFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:470"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "initialHigherFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:471"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "higherFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:472"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "beneficiaries",
+            "type": "t_struct(Beneficiaries)5255_storage",
+            "src": "contracts\\XDAO01Up.sol:474"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "maxTransferAmount",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:476"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "liquidityQuantum",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:477"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "minHoldTimeSec",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:478"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "pancakeRouter",
+            "type": "t_contract(IPancakeRouter02)1479",
+            "src": "contracts\\XDAO01Up.sol:480"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "pancakePair",
+            "type": "t_address",
+            "src": "contracts\\XDAO01Up.sol:481"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "generalCharityAddress",
+            "type": "t_address",
+            "src": "contracts\\XDAO01Up.sol:483"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "isCharityAddress",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\XDAO01Up.sol:484"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "preferredCharityAddress",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "contracts\\XDAO01Up.sol:485"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "isFeeFree",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\XDAO01Up.sol:487"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "lastTransferTime",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\XDAO01Up.sol:488"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "autoliquify",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:490"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "beneficiariesSet",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:491"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "liquifying",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:566"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "__gap",
+            "type": "t_array(t_uint256)10_storage",
+            "src": "contracts\\XDAO01Up.sol:955"
+          },
+          {
+            "contract": "XDAO02Up",
+            "label": "operator",
+            "type": "t_address",
+            "src": "contracts\\XDAO02Up.sol:29"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_struct(Fees)5237_storage": {
+            "label": "struct XDAO01Up.Fees",
+            "members": [
+              {
+                "label": "marketing",
+                "type": "t_uint256"
+              },
+              {
+                "label": "charity",
+                "type": "t_uint256"
+              },
+              {
+                "label": "liquidity",
+                "type": "t_uint256"
+              },
+              {
+                "label": "lottery",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_struct(Beneficiaries)5255_storage": {
+            "label": "struct XDAO01Up.Beneficiaries",
+            "members": [
+              {
+                "label": "marketing",
+                "type": "t_address"
+              },
+              {
+                "label": "charity",
+                "type": "t_address"
+              },
+              {
+                "label": "liquidity",
+                "type": "t_address"
+              },
+              {
+                "label": "lottery",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_contract(IPancakeRouter02)1479": {
+            "label": "contract IPancakeRouter02"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_array(t_uint256)10_storage": {
+            "label": "uint256[10]"
+          }
+        }
+      }
+    },
+    "9f2c0b996f43ff58bf6f9032044df7f48efcaf2f1a06de9acb805febec21ff27": {
+      "address": "0x1A3D33cB525D5a8553aE5c068dacb11D3D7d1587",
+      "txHash": "0x6853ba6a997b1603a7997c741de3be36d8309ab338ac81181dfee215e5584725",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts\\Open-Zeppelin.sol:11"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts\\Open-Zeppelin.sol:16"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "contracts\\Open-Zeppelin.sol:57"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\XDAO01Up.sol:26"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts\\XDAO01Up.sol:28"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:30"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "contracts\\XDAO01Up.sol:32"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "contracts\\XDAO01Up.sol:33"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "initialLowerFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:469"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "lowerFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:470"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "initialHigherFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:471"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "higherFees",
+            "type": "t_struct(Fees)5237_storage",
+            "src": "contracts\\XDAO01Up.sol:472"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "beneficiaries",
+            "type": "t_struct(Beneficiaries)5255_storage",
+            "src": "contracts\\XDAO01Up.sol:474"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "maxTransferAmount",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:476"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "liquidityQuantum",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:477"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "minHoldTimeSec",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:478"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "pancakeRouter",
+            "type": "t_contract(IPancakeRouter02)1479",
+            "src": "contracts\\XDAO01Up.sol:480"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "pancakePair",
+            "type": "t_address",
+            "src": "contracts\\XDAO01Up.sol:481"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "generalCharityAddress",
+            "type": "t_address",
+            "src": "contracts\\XDAO01Up.sol:483"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "isCharityAddress",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\XDAO01Up.sol:484"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "preferredCharityAddress",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "contracts\\XDAO01Up.sol:485"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "isFeeFree",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\XDAO01Up.sol:487"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "lastTransferTime",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\XDAO01Up.sol:488"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "autoliquify",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:490"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "beneficiariesSet",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:491"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "liquifying",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:566"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "__gap",
+            "type": "t_array(t_uint256)10_storage",
+            "src": "contracts\\XDAO01Up.sol:955"
+          },
+          {
+            "contract": "XDAO02Up",
+            "label": "operator",
+            "type": "t_address",
+            "src": "contracts\\XDAO02Up.sol:29"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_struct(Fees)5237_storage": {
+            "label": "struct XDAO01Up.Fees",
+            "members": [
+              {
+                "label": "marketing",
+                "type": "t_uint256"
+              },
+              {
+                "label": "charity",
+                "type": "t_uint256"
+              },
+              {
+                "label": "liquidity",
+                "type": "t_uint256"
+              },
+              {
+                "label": "lottery",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_struct(Beneficiaries)5255_storage": {
+            "label": "struct XDAO01Up.Beneficiaries",
+            "members": [
+              {
+                "label": "marketing",
+                "type": "t_address"
+              },
+              {
+                "label": "charity",
+                "type": "t_address"
+              },
+              {
+                "label": "liquidity",
+                "type": "t_address"
+              },
+              {
+                "label": "lottery",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_contract(IPancakeRouter02)1479": {
+            "label": "contract IPancakeRouter02"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_array(t_uint256)10_storage": {
+            "label": "uint256[10]"
+          }
+        }
+      }
+    },
+    "ac4facbfe6f1fe6fda8d1aa24e233bf3b92ab00488a84347f52ed28b8d01aca5": {
+      "address": "0xAfca9bE36f244B8130CD1C2AB49B06B9DB34Ff87",
+      "txHash": "0x03f861a594d309b4fc69707fcadb0f3e3f29b8a53d151ed45b60fe51cd6e1861",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts\\Open-Zeppelin.sol:11"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts\\Open-Zeppelin.sol:16"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "contracts\\Open-Zeppelin.sol:57"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\XDAO01Up.sol:35"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts\\XDAO01Up.sol:37"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:39"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "contracts\\XDAO01Up.sol:41"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "contracts\\XDAO01Up.sol:42"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "fees",
+            "type": "t_struct(Fees)5221_storage",
+            "src": "contracts\\XDAO01Up.sol:478"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "storeAddresses",
+            "type": "t_struct(StoreAddresses)5228_storage",
+            "src": "contracts\\XDAO01Up.sol:479"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "pulses",
+            "type": "t_struct(Pulses)5242_storage",
+            "src": "contracts\\XDAO01Up.sol:481"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "lastTransferTime",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts\\XDAO01Up.sol:483"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "maxTransferAmount",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:485"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "liquidityQuantum",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:486"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "minHoldTimeSec",
+            "type": "t_uint256",
+            "src": "contracts\\XDAO01Up.sol:487"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "dexRouter",
+            "type": "t_contract(IPancakeRouter02)1479",
+            "src": "contracts\\XDAO01Up.sol:489"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "dexPair",
+            "type": "t_address",
+            "src": "contracts\\XDAO01Up.sol:490"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "isHolder",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts\\XDAO01Up.sol:492"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "holders",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "contracts\\XDAO01Up.sol:493"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "autoManagement",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:495"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "managing",
+            "type": "t_bool",
+            "src": "contracts\\XDAO01Up.sol:608"
+          },
+          {
+            "contract": "XDAO01Up",
+            "label": "__gap",
+            "type": "t_array(t_uint256)10_storage",
+            "src": "contracts\\XDAO01Up.sol:847"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_struct(Fees)5221_storage": {
+            "label": "struct XDAO01Up.Fees",
+            "members": [
+              {
+                "label": "burn",
+                "type": "t_uint256"
+              },
+              {
+                "label": "rewards",
+                "type": "t_uint256"
+              },
+              {
+                "label": "liquidity",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_struct(StoreAddresses)5228_storage": {
+            "label": "struct XDAO01Up.StoreAddresses",
+            "members": [
+              {
+                "label": "burn",
+                "type": "t_address"
+              },
+              {
+                "label": "rewards",
+                "type": "t_address"
+              },
+              {
+                "label": "liquidity",
+                "type": "t_address"
+              }
+            ]
+          },
+          "t_struct(Pulses)5242_storage": {
+            "label": "struct XDAO01Up.Pulses",
+            "members": [
+              {
+                "label": "vote_burn",
+                "type": "t_uint256"
+              },
+              {
+                "label": "all_burn",
+                "type": "t_uint256"
+              },
+              {
+                "label": "lp_rewards",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_contract(IPancakeRouter02)1479": {
+            "label": "contract IPancakeRouter02"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_array(t_uint256)10_storage": {
+            "label": "uint256[10]"
+          }
+        }
+      }
+    }
+  }
+}
