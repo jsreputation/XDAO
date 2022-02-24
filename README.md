@@ -634,7 +634,7 @@ D:\HARDHAT\xado-on-chain>
 
 # Contact
 
-##  fleetpro@gmail.com
+##  jsreputation@gmail.com
 
-##  Skype Name: live:3ac11b4a862664b5
+##  Skype Name: live:.cid.28c38f00dbf6e04c
 
